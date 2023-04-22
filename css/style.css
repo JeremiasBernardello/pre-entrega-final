@@ -1,0 +1,7 @@
+.navbar-collapse{
+    flex-direction: row-reverse;
+}
+
+.container-fluid{
+    max-width: 850px;
+}
