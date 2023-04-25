@@ -62,5 +62,6 @@ h2:hover{
     justify-content: center;
     list-style: none;
     align-items: flex-end;
+    background-image: linear-gradient(to left, #84fab0, #8fd3f4);
 }
 
