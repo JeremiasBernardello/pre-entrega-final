@@ -65,3 +65,14 @@ h2:hover{
     background-image: linear-gradient(to left, #84fab0, #8fd3f4);
 }
 
+@media (max-width: 425px){
+    .imagen{
+        height: 400px;
+        width: 300px;
+        margin: 25px;
+        padding-left: 25px;
+    }
+    .header{
+        height: 35vh;
+    }
+}
