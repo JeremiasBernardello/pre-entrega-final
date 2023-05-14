@@ -1,0 +1,13 @@
+h2{
+    padding-left: 138px;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.main-nosotros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+}

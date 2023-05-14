@@ -12,26 +12,6 @@
   .header .container-fluid {
     max-width: 850px; }
 
-.fotos-remera {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
-  .fotos-remera .imagen {
-    height: 889px;
-    width: 679px;
-    margin: 54px; }
-
-h2 {
-  padding-left: 138px; }
-  h2:hover {
-    text-decoration: underline; }
-
-.main-nosotros {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 50px; }
-
 .formulario form {
   width: 500px;
   margin: 0 auto;
@@ -67,6 +47,26 @@ h2 {
 
 .formulario input[type="submit"]:hover {
   background-color: #45a049; }
+
+.fotos-remera {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .fotos-remera .imagen {
+    height: 889px;
+    width: 679px;
+    margin: 54px; }
+
+h2 {
+  padding-left: 138px; }
+  h2:hover {
+    text-decoration: underline; }
+
+.main-nosotros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px; }
 
 .footer {
   background-color: #333;

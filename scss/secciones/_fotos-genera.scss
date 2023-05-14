@@ -1,0 +1,10 @@
+.fotos-remera{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .imagen{
+        height: 889px;
+        width: 679px;
+        margin: 54px;
+    }
+}
