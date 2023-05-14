@@ -4,17 +4,4 @@
 @import './secciones/fotos-genera';
 @import './secciones/main-general';
 @import './secciones/footer';
-  @media (max-width: 425px){
-      .imagen{
-          height: 400px;
-          width: 300px;
-          margin: 25px;
-          padding-left: 25px;
-        }
-        .header{
-            height: 35vh;
-        }
-        form{
-            width: 100%;
-        }
-    }
+@import './secciones/media-query';
