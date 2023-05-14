@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-  <section class="body">
     <header class="header">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -36,7 +35,7 @@
             </div>
           </nav>
     </header>
-    <main>
+    <main class="formulario">
       <form action="/enviar-mensaje" method="POST">
         <label for="nombre">Nombre:</label><br />
         <input type="text" id="nombre" name="nombre" /><br />
@@ -45,10 +44,9 @@
         <label for="mensaje">Mensaje:</label><br />
         <textarea id="mensaje" name="mensaje"></textarea><br />
         <input type="submit" value="Enviar mensaje" />
-      </form>
+    </div>
     </main>
-  </section>
-  <footer>
+  <footer class="footer">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
