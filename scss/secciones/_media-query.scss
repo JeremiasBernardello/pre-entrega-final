@@ -4,11 +4,17 @@
         width: 300px;
         margin: 25px;
         padding-left: 25px;
+        justify-content: center;
+        
       }
       .header{
           height: 35vh;
+          width: 100%;
       }
       form{
           width: 100%;
+      }
+      .footer{
+        width: 100%;
       }
   }
